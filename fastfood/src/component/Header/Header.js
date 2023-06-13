@@ -1,7 +1,9 @@
 import classes from './Header.module.css';
+
 import {Fragment} from 'react';
 import Meal5 from '../../Assets/Meal5.jpg'
-import HeaderCartButton from './HeaderCartButton';
+import HeaderCartButton from '../Header/HeaderCartButton.js';
+
 
 
 const Header=(props)=>{
